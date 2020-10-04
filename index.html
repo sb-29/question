@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>Question</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#country").change(function() {
+                $("#state").load("textdata/" + $(this).val() + ".txt");
+            });
+        });
+    </script>
+</head>
+<body>
+    <br><br>
+    <form>
+        <label for="country">Choose your Country:</label>
+        <select id="country" name="country">
+          <option selected value="base">Select</option>
+          <option value="usa">USA</option>
+          <option value="germany">Germany</option>
+          <option value="india">India</option>
+          <option value="russia">Russia</option>
+          <option value="japan">Japan</option>
+        </select>
+        <label for="state">Choose your State:</label>
+        <select id="state" name="state">
+            <option>Select</option>
+        </select><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
