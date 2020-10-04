@@ -1,0 +1,11 @@
+<option<Select</option>
+<option>Adygey</option>
+<option>Altai</option>
+<option>Buryat</option>
+<option>Chechnya</option>
+<option>Chuvash</option>
+<option>Karelia</option>
+<option>Komi</option>
+<option>Sakha</option>
+<option>Tuva</option>
+<option>Udmurt</option>
