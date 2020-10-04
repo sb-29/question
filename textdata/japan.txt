@@ -1,0 +1,11 @@
+<option<Select</option>
+<option>Akita</option>
+<option>Aomori</option>
+<option>Chiba</option>
+<option>Ehime</option>
+<option>Gifu</option>
+<option>Gunma</option>
+<option>Hiroshima</option>
+<option>Hyogo</option>
+<option>Nagasaki</option>
+<option>Nara</option>
